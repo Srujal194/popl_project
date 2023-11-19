@@ -1,27 +1,26 @@
+use std::fs::File;
+use std::io::{BufReader, BufRead, BufWriter, Write};
 use std::thread;
 
 fn main() {
-    let data = vec![1, 2, 3, 4, 5];
-    
-    // Clone the data to share between threads
-    let data_reader = data.clone();
-    let data_writer = data.clone();
+    // Open a file for reading
+    let reader_file = File::open("input.txt").expect("Failed to open input file");
+    let reader = BufReader::new(reader_file);
 
-    // Create a thread for reading
-    let reader_handle = thread::spawn(move || {
-        for item in data_reader {
-            println!("Read: {}", item);
+    // Open a file for writing
+    let writer_file = File::create("output.txt").expect("Failed to create output file");
+    let mut writer = BufWriter::new(writer_file);
+
+    // Create a thread for reading and writing
+    let handle = thread::spawn(move || {
+        for line in reader.lines() {
+            if let Ok(num) = line {
+                writeln!(&mut writer, "{}", num).expect("Failed to write to file");
+            }
         }
+        writer.flush().expect("Failed to flush buffer");
     });
 
-    // Create a thread for writing
-    let writer_handle = thread::spawn(move || {
-        for item in data_writer {
-            println!("Write: {}", item * 2);
-        }
-    });
-
-    // Wait for both threads to finish
-    reader_handle.join().unwrap();
-    writer_handle.join().unwrap();
+    // Wait for the thread to finish
+    handle.join().unwrap();
 }
