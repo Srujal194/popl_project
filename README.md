@@ -105,6 +105,8 @@ In summary, the POPL aspects in both implementations revolve around concurrent a
   
   The following are some graphs which show our outputs:
 
+   ![WhatsApp Image 2023-11-22 at 20 35 48_299fcd24](https://github.com/Srujal194/popl_project/assets/102753313/9bfdbf1d-9703-4112-ad85-7f35dc0fafaa)
+   ![WhatsApp Image 2023-11-22 at 20 36 02_b4ee83ea](https://github.com/Srujal194/popl_project/assets/102753313/8c735a8e-223a-4f5a-84d4-9cefe36b3612)
 
 
 
