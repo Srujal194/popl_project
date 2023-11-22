@@ -108,6 +108,19 @@ In summary, the POPL aspects in both implementations revolve around concurrent a
    ![WhatsApp Image 2023-11-22 at 20 35 48_299fcd24](https://github.com/Srujal194/popl_project/assets/102753313/9bfdbf1d-9703-4112-ad85-7f35dc0fafaa)
    ![WhatsApp Image 2023-11-22 at 20 36 02_b4ee83ea](https://github.com/Srujal194/popl_project/assets/102753313/8c735a8e-223a-4f5a-84d4-9cefe36b3612)
 
+   ### Convincing Points:
+
+- Performance Improvements: Clear evidence of improved performance in Rust over C++ for multithreaded operations based on the benchmarks and tests conducted.
+
+- Consistency and Reliability: Consistent results across multiple runs and scenarios, providing confidence in the reliability of your implementation.
+
+- Visualization: Graphical representations that vividly illustrate the performance differences between C++ and Rust can be compelling.
+
+- Comparison with Previous Studies: If your results align with existing studies or benchmarks, it adds credibility to your findings.
+
+- Code Complexity Metrics: Demonstrating that Rust's advantages in terms of safety and performance come with reasonable or even reduced implementation complexity.
+
+By rigorously conducting and presenting these tests, you can build a data-driven case to convince stakeholders that your solution effectively addresses the challenges outlined in the initial problem statement.
 
 
 
