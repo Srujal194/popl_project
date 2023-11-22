@@ -1,7 +1,9 @@
 # popl_project
 ### 1) Problem Statement
    The Why is : C++ implementation of concurrent reading and writing might be outperformed by Rust according to certain web sources we referred , we did this project to set that in stone by doing proper testing.
+   
    The What is : The end problem being addressed in the provided C++ and Rust code snippets is the concurrent reading of data from the "input.txt" file, storing it in memory, and subsequently writing the data to the "output.txt" file.
+   
    The How is : Refer to 3) POPL Aspects and other implementation based information sprinkled throughout the ReadME
 
 ### 2) Software Architecture
