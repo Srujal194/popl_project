@@ -129,3 +129,7 @@ Rationale: Transactional mechanisms enhance the robustness of file operations by
 Objective: Integrating formal verification techniques to ensure correctness and safety in multithreaded file operations. This involves applying methods like model checking or theorem proving to provide mathematical guarantees regarding the absence of data races or other concurrency-related issues.
 Rationale: Formal verification adds an additional layer of assurance by mathematically proving the correctness of the implemented multithreaded file operations. This approach aligns with the principles of POPL, ensuring that the concurrent code adheres to specified properties without relying solely on testing. It contributes to the development of highly reliable and secure systems.
 By addressing these aspects in detail, the project can extend its scope to encompass a broader range of concurrency-related considerations, pushing the boundaries of understanding and implementation in the context of multithreaded file operations in Rust and C++.
+
+
+### WORK DISTRIBUTION
+It was a collaborative effort with everyone chipping in sometime from their busy schedules.
