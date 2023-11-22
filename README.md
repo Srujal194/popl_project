@@ -98,7 +98,7 @@
 
 In summary, the POPL aspects in both implementations revolve around concurrent access to shared data and proper error handling. The Rust solution highlights its ownership system for enhanced safety, while the C++ solution could be strengthened by incorporating explicit synchronization mechanisms.
 
-###4) RESULTS 
+### 4) RESULTS 
   The testing is done informally using libraries present in the respective languages to calculate time for execution of a particular program. We did three tests each for a given input and took the average time.
 
   We did testing for read performance and write perfromance separately to give more insightful results.
@@ -111,7 +111,7 @@ In summary, the POPL aspects in both implementations revolve around concurrent a
 
 
 
-###5) Potential for future works
+### 5) Potential for future works
 
 
 1. Advanced Concurrency Models:
